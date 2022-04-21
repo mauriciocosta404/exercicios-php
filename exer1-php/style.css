@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    width: 370px;
+}
+.submit{
+    margin: 5px;
+}
