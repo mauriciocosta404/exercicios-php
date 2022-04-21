@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    width: 300px;
+}
+.submit{
+    margin: 5px;
+}
+input[type="number"]{
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+    outline: none;
+}
+input[type="submit"]{
+    border: none;
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
