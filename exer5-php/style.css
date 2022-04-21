@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    width: 370px;
+}
+input[type="submit"]{
+    margin: 5px;
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+    border: none;
+    padding: 5px;
+}
+input[type="number"]{
+    outline: none;
+    padding: 5px;
+}
+p{
+    font-size: 18px;
+    text-align: center;
+
+}
