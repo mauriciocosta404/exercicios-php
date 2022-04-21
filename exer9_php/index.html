@@ -5,23 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>trapezio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../exerStyle/style.css">
 </head>
 <body>
 <h1>Mauricio Costa</h1>
     <div class="form">
         <form action="trapezio.php" method="post">
-            <fieldset>
-                <legend>trapezio:</legend>
+           
+            <h2>trapezio</h2>
                 <label for="">base maior:</label><br>
-                <input type="number" name="base_maior"><br>  
+                <div class="input">
+                    <i class="fa-solid fa-arrow-down-9-1 icon-color"></i>
+                    <input type="number" placeholder="informe a base maior" name="base_maior"><br>
+                </div>  
                 <label for="">base menor:</label><br>
-                <input type="number" name="base_menor"><br>
+                <div class="input">
+                    <i class="fa-solid fa-arrow-down-9-1 icon-color"></i>
+                    <input type="number" placeholder="informe a base menor" name="base_menor"><br>
+                </div>
                 <label for="">altura:</label><br>
-                <input type="number" name="altura"><br>       
+                <div class="input">
+                    <i class="fa-solid fa-arrow-down-9-1 icon-color"></i>
+                    <input type="number" placeholder="informe a altura" name="altura"><br>
+                </div>       
                 <input type="submit" value="calcular">
-            </fieldset>
+           
         </form>
     </div>
+    <script src="../exerStyle/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/js/all.min.js"></script>
 </body>
 </html>

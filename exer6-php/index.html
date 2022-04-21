@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>preco</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../exerStyle/style.css">
 </head>
 <body>
 <h1>Mauricio Costa</h1>
     <div class="form">
         <form action="comissao.php" method="post">
-            <fieldset>
-                <legend>Média</legend>
+                <h2>salario</h2>
                 <label for="">Salario:</label><br>
-                <input type="number" name="salary"><br>         
+                <div class="input">
+                    <i class="fa-solid fa-arrow-down-9-1 icon-color"></i>
+                    <input type="number" placeholder="digite o seu salario" name="salary"><br>   
+                </div>      
                 <label for="">Comissão:</label><br>
-                <input type="number" name="comissao"><br>
+                <div class="input">
+                    <i class="fa-solid fa-arrow-down-9-1 icon-color"></i>
+                    <input type="number" placeholder="digite a comissão" name="comissao"><br>
+                </div>
                 <input type="submit" value="calcular">
-            </fieldset>
         </form>
     </div>
+    <script src="../exerStyle/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/js/all.min.js"></script>
 </body>
 </html>

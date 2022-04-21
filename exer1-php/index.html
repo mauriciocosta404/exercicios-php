@@ -5,19 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mauricio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../exerStyle/style.css">
 </head>
 <body>
     <h1>Mauricio Costa</h1>
     <div class="form">
+        
         <form action="./index.php" method="post">
-            <fieldset id="003">
-                <legend>subtrair 2 numeros:</legend>
-                <input type="number" name="n1">
-                <input type="number" name="n2">
-                <input class="submit" type="submit" value="subtrair">
-            </fieldset>
+            
+                <h2>subtrair</h2>
+                <label for="">valor 1:</label>
+                <div class="input">
+                    <i class="fa-solid fa-arrow-down-9-1 icon-color"></i>
+                    <input type="number" placeholder="valor 1" name="n1">
+                </div>
+                <label for="">valor 2:</label>
+                <div class="input">
+                    <i class="fa-solid fa-arrow-down-9-1 icon-color"></i>
+                    <input type="number" placeholder="valor2" name="n2">
+                </div>
+                <div class="submit">
+                    <input class="button" type="submit" value="subtrair">
+                </div>
+               
         </form>
     </div>
+    <script src="../exerStyle/fontawesome-free-6.1.1-web//fontawesome-free-6.1.1-web/js/all.min.js"></script>
 </body>
 </html>
