@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2,label{
+    color: #CBD0F7;
+}
+body{
+   background:#5568FE ;
+    font-family: 'Roboto',sans-serif;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #181920;
+    width: min-content;
+    border-radius: 10px;
+    justify-content: center;
+}
+form{
+    width: 310px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+input[type="number"]{
+    font-size: 14px;
+    width: 230px;
+    color: #CBD0F7;
+    background-color: #252A34;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    height: 45px;
+    border-radius: 5px;
+    padding-left:10px ;
+}
+input::placeholder{
+    color: #CBD0F7;
+}
+input[type='submit']{
+    margin-top: 10px;
+    background-color: #5568FE;
+    font-size: 22px;
+    cursor: pointer;
+    border: none;
+    color: #CBD0F7;
+    padding: 5px;
+    width: 40px;
+    border-radius: 2px;
+ 
+}
+.result{
+    background-color: #fff;
+    font-size: 14px;
+    width: 230px;
+    color:#181920;
+    outline: none;
+    border: none;
+    height: 45px;
+    border-radius: 5px;
+    padding-left:10px ;
+}
+select{
+    background-color: #181920;
+    color: #CBD0F7;
+    outline: none;
+    border: none;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
